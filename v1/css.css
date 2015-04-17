@@ -1,0 +1,305 @@
+body 
+{margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ scrollbar-face-color: #FFFFFF;
+ scrollbar-shadow-color: #FFFFFF;
+ scrollbar-highlight-color: #FFFFFF;
+ scrollbar-3dlight-color: #FFFFFF;
+ scrollbar-darkshadow-color: #FFFFFF;
+ scrollbar-track-color: #FFFFFF;
+ scrollbar-arrow-color: #242424;}
+	
+table
+{border:0; border-collapse:collapse; border-spacing:0}
+	
+.title 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 24px;
+ color: #838383;
+ font-weight: lighter;
+  text-decoration:none }
+.title:link {color:838383;}
+.title:visited {color:838383;}
+.title:hover {color:838383;}
+
+.title2 
+{
+	font-family: "Helvetica Neue", Arial;
+	font-size: 22px;
+	color: #4D4D4D;
+	font-weight: lighter;
+	text-decoration:none;
+}
+.title:link {color:4D4D4D;}
+.title:visited {color:4D4D4D;}
+.title:hover {color:4D4D4D;}
+ 
+.link_light14 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 14px;
+ font-weight: lighter;
+ color: #838383;
+ text-decoration:none }
+.link_light14:link {color:838383;}
+.link_light14:visited {color:838383;}
+.link_light14:hover {color:242424;}
+
+.link_bold14 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 14px;
+ color: #838383;
+ font-weight: bold;
+ text-decoration:none }
+.link_bold14:link {color:838383;}
+.link_bold14:visited {color:838383;}
+.link_bold14:hover {color:242424;}
+
+.link_bold14:sup {font-size: 12px;}
+.menu_gras_vert:sup {font-size: 12px;}
+
+.link_light12 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 12px;
+ color: #838383;
+ text-decoration:none }
+.link_light12:link {color:838383;}
+.link_light12:visited {color:838383;}
+.link_light12:hover {color:242424;}
+
+.link_light11 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 11px;
+ color: #838383;
+ text-decoration:none }
+.link_light11:link {color:838383;}
+.link_light11:visited {color:838383;}
+.link_light11:hover {color:242424;}
+
+.link_light9 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 9px;
+ color: #838383;
+ text-decoration:none }
+.link_light9:link {color:838383;}
+.link_light9:visited {color:838383;}
+.link_light9:hover {color:242424;}
+
+.link_bold14:sup {font-size: 12px;}
+.menu_gras_vert:sup {font-size: 12px;}
+.menu_gras_vert
+{font-family: "Helvetica Neue", Arial;
+ font-size: 14px;
+ color: #242424;
+ font-weight: bold;
+ text-decoration:none}
+.menu_gras_vert:link {color:#242424;}
+.menu_gras_vert:visited {color:#242424;}
+.menu_gras_vert:hover {color:#242424;}
+
+.link_light13 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 13px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none}
+.link_light13:link {color:000000;}
+.link_light13:visited {color:000000;}
+.link_light13:hover {color:E1DE31;}
+
+.text_14 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 14px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none}
+
+.text_13 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 13px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none}
+ 
+.text_12 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 12px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none}
+ 
+.text_11 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 11px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none;
+ white-space:nowrap}
+  
+.text_11_wrap 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 11px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none;}
+ 
+ .text_12_wrap 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 12px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none;}
+ 
+.text_9 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 9px;
+ font-weight: lighter;
+ color: #333333;
+ text-decoration:none}
+ 	
+.text_bold13 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 13px;
+ font-style:italic;
+ color: #000000;
+ font-weight: bold;
+ text-decoration:none} 	
+ 	
+.text_bold12 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 12px;
+ color: #000000;
+ font-weight:bold;
+ text-decoration:none}
+ 	
+.text_bold14 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 14px;
+ color: #000000;
+ font-weight: bold;
+ text-decoration:none}
+	
+ttl 
+{font-family: "Helvetica Neue", Arial;
+ font-size: 13px;
+ color: #000000;
+ font-style:italic;
+ font-weight: bold;
+ text-decoration:none}
+	
+.menu_triangle 
+{font-family: "Wingdings 3";
+ color: #E1DE31;
+ font-size: 11px;
+ margin-bottom: 10px;
+ bottom: 10px;
+ vertical-align: 10%;}
+	
+.menu_triangle_black 
+{font-family: "Wingdings 3";
+ color: #000000;
+ font-size: 8px;
+ margin-bottom: 10px;
+ bottom: 10px;
+ vertical-align: 10%;}
+
+tgl
+{font-family: "Wingdings 3";
+ color: #000000;
+ font-size: 8px;
+ margin-bottom: 10px;
+ bottom: 10px;
+ vertical-align: 10%;}
+
+ 
+a img 
+{border: none; }
+
+.imagebas
+{margin-top:5;}
+
+.imagepieces
+{margin-top:5;
+ }
+
+
+.coupe
+{
+	width:501px;
+	height:380px;
+	overflow:auto;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration:none;
+	margin-bottom:10;
+	margin-left:10;
+	margin-top:10;
+	margin-right:10;
+	padding-right: 25px;
+}		
+ 
+.coupe12
+{
+	width:501px;
+	height:380px;
+	overflow:auto;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 12px;
+	font-weight: lighter;
+	color: #333333;
+	text-decoration:none;
+	margin-bottom:10;
+	margin-left:10;
+	margin-top:10;
+	margin-right:10;
+	padding-right: 25px;
+}		
+ 
+td.spacer2 {
+	font-size : 2px}
+
+td.spacer3 {
+	font-size : 3px}
+
+td.spacer4 {
+	font-size : 4px}
+
+td.spacer5 {
+	font-size : 5px}
+
+td.spacer7 {
+	font-size : 7px}
+
+td.spacer8 {
+	font-size : 8px}
+	
+td.spacer9 {
+	font-size : 9px}
+	
+td.spacer10 {
+	font-size : 10px}
+	
+td.spacer11 {
+	font-size : 11px}
+	
+td.spacer12 {
+	font-size : 12px}
+
+td.spacer15 {
+	font-size : 15px}
+
+td.spacer18 {
+	font-size : 18px}
+	
+td.spacer24 {
+	font-size : 24px}
+
+	
+/* 
+OLD: "Helvetica Neue", Candara, Helvetica, "Trebuchet MS", Arial
+NEW: "Helvetica Neue", Candara, Arial;
+TEXT 1: "Helvetica Neue", Helvetica, Tahoma, Arial;
+*/

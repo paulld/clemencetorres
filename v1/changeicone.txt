@@ -1,0 +1,5 @@
+<!-- Icône du site (favicon) -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+La favicon est une icône qui s'affiche généralement à gauche de l'adresse de votre site sur le navigateur de vos visiteurs. C'est un moyen de personnaliser un peu plus son site.

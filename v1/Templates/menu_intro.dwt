@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Cl&eacute;mence Torres</title>
+<!-- TemplateEndEditable -->
+<link href="../css.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20083114-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="link_light14" href="#">bio</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="menu_normal" href="#">exhibitions/expositions</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="menu_normal" href="#">works/pi&egrave;ces</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="link_light14" href="#">publications</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="menu_normal" href="#">portfolio</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="link_light14" href="#">texts</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="40">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="link_light14" href="#">links/liens</a></td>
+  </tr>
+  <tr>
+    <td width="50" height="240">&nbsp;</td>
+    <td align="left" valign="bottom"><a class="texte_light" href="#"><i>clemence.torres@gmail.com</i></a></td>
+  </tr>
+</table>
+</body>
+</html>

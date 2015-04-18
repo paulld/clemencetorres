@@ -1,20 +1,18 @@
-<div class="navbar navbar-default navbar-static-top" ng-controller="NavbarCtrl">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" ng-click="isCollapsed = !isCollapsed">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="/" class="navbar-brand">clemencetorres</a>
+<div class="container-fluid" ng-controller="NavbarCtrl" id="top-nav">
+  <!-- <div class="navbar-outer"> -->
+    <div class="logo">
+      <img src="/assets/images/logo.svg" alt="clemence torres artist">
     </div>
-    <div collapse="isCollapsed" class="navbar-collapse collapse" id="navbar-main">
-      <ul class="nav navbar-nav">
-        <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
-            <a ng-href="{{item.link}}">{{item.title}}</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+
+    <ul class="list-inline main-menu">
+      <li><a href="1-exhibitions">Exhibitions</a></li>
+      <li aria-role="presentation"><img src="/assets/images/separator.svg"></li>
+      <li><a href="1-works">Works</a></li>
+      <li aria-role="presentation"><img src="/assets/images/separator.svg"></li>
+      <li><a href="1-press">Press</a></li>
+      <li aria-role="presentation"><img src="/assets/images/separator.svg"></li>
+      <li><a href="1-bio-portfolio">Bio & Portfolio</a></li>
+      <li class="language"><a href="">en</a></li>
+    </ul>
+  <!-- </div> -->
 </div>

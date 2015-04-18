@@ -1,23 +1,86 @@
-$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
-$fa-font-path: "/bower_components/font-awesome/fonts";
+/***********************************
+ * Fonts & Imports
+ */
+
+ // $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+// $fa-font-path: "/bower_components/font-awesome/fonts";
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
-@import 'font-awesome/scss/font-awesome';
+// @import 'font-awesome/scss/font-awesome';
 
-/**
+@font-face{
+  font-family: 'Klavika-Regular';
+  src: url(/assets/fonts/Klavika-Regular.eot);
+  src: url(/assets/fonts/Klavika-Regular.woff) format('woff'),
+       url(/assets/fonts/Klavika-Regular.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Regular.svg#Klavika-Regular) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+@font-face{
+  font-family: 'Klavika-Medium';
+  src: url(/assets/fonts/Klavika-Medium.eot);
+  src: url(/assets/fonts/Klavika-Medium.woff) format('woff'),
+       url(/assets/fonts/Klavika-Medium.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Medium.svg#Klavika-Medium) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+@font-face{
+  font-family: 'Klavika-Light';
+  src: url(/assets/fonts/Klavika-Light.eot);
+  src: url(/assets/fonts/Klavika-Light.woff) format('woff'),
+       url(/assets/fonts/Klavika-Light.ttf) format('truetype'),
+       url(/assets/fonts/Klavika-Light.svg#Klavika-Light) format('svg');
+  font-weight:400;
+  font-style:normal
+}
+
+/***********************************
+ * Variables
+ */
+
+$color-main: rgb(177,167,96);
+$color-text-main: rgb(0,0,0);
+$color-text-header: rgb(255,255,255);
+$color-background: transparent;
+$font-titles: 'Klavika-Light', sans-serif;
+$font-texts: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+$top-nav-height: 70px;
+
+/***********************************
  * App-wide Styles
  */
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+html, body {
+  height: 100%;
+  width: 100%;
 }
+body {
+  padding: 0;
+  padding-top: $top-nav-height;
+  background-color: $color-background;
+}
+#main {
+  min-height: 100%;
+  // margin: 0 auto -80px;  /* Negative margin-bottom must be equal to $footer-height */
+  background-color: $color-background;
+  // padding: 50px 0 50px 40px;
+  // padding-top: 70px;
+  font-family: $font-texts;
+  // color: $color-secondary-dark;
+} 
+
+
+
 
 // Component styles are injected through grunt
 // injector
-@import 'account/login/login.scss';
-@import 'admin/admin.scss';
+@import 'bio-portfolio/bio-portfolio.scss';
+@import 'contact/contact.scss';
+@import 'exhibitions/exhibitions.scss';
 @import 'main/main.scss';
+@import 'press/press.scss';
+@import 'works/works.scss';
+@import 'navbar/navbar.scss';
 // endinjector

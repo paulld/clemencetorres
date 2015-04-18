@@ -1,0 +1,42 @@
+#top-nav {
+  position: fixed;
+  padding: 0 40px;
+  height: $top-nav-height;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparentize($color-main,.1);
+  z-index: 1;
+  color: $color-text-header;
+  ul.main-menu {
+    display: inline-block;
+    float: right;
+    & > li {
+      padding: 0;
+      & > a {
+        color: $color-text-header;
+        font-family: $font-titles;
+        font-size: 14px;
+        line-height: $top-nav-height;
+      }
+      & > img {
+        // height: 20px;
+      }
+    }
+    & > li.language {
+      margin-left: 60px;
+    }
+    & > li.active > a {
+      font-weight: bold;
+    }
+  }
+  .logo {
+    display: inline-block;
+    float: left;
+    line-height: $top-nav-height;
+    img {
+      // width: 150px;
+      line-height: $top-nav-height;
+    }
+  }
+}
